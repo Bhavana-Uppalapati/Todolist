@@ -1,0 +1,64 @@
+img{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-color: burlywood;
+   /* background: rgb(0,0,0);
+    background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(37,37,144,1) 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#parent{
+    background-image: url(./weather/assests/21burst-to-do-list-blog480-v2.gif);
+    filter: blur(0.5);
+    background-color: white;
+    width: 500px;
+
+   border-radius: 50px;
+  
+   
+}
+ul{
+    padding: 0 20px;
+}
+ul li{
+    
+    border: 1px solid;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    color: cornsilk;
+    border-radius: 30px;
+    height: auto;
+    list-style-type: none;
+   cursor: pointer;
+     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul li p{
+    width: 70%;
+    font-weight: 800;
+}
+
+button{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 63px;
+    border-radius: 50px;
+}
+#input_box{
+    margin-left: 40px;
+    width: 366px;
+    margin-top: 42px;
+    margin-bottom: 40px;
+    height: 30px;
+    border-radius: 30px;
+   
+    
+ 
+}
