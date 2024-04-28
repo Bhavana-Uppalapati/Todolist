@@ -3,7 +3,7 @@ img{
     height: 100vh;
 }
 body{
-    background-color: burlywood;
+    background-color: slategrey;
    /* background: rgb(0,0,0);
     background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(37,37,144,1) 100%); */
     display: flex;
@@ -12,11 +12,11 @@ body{
     height: 100vh;
 }
 #parent{
-    background-image: url(./weather/assests/21burst-to-do-list-blog480-v2.gif);
+    background-image: url(./21burst-to-do-list-blog480-v2.gif);
     filter: blur(0.5);
     background-color: white;
     width: 500px;
-
+    box-shadow: 5px 5px 10px;
    border-radius: 50px;
   
    
